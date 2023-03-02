@@ -1,0 +1,16 @@
+.grid-container 
+{
+ display:grid;
+ grid-template-columns:auto auto auto;
+ background-color:tomato;
+ padding:20 px;
+}
+ .grid-item 
+ {
+ background-color:rgba(255 , 255 , 255 , 0.8);
+
+ border:1 px solid rgba(0 , 0, 0, 0.4);*
+ padding:10px;
+ font-size:30 px;
+ text-align:center;
+ }
