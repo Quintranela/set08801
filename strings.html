@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Strings</h1>
+
+	<p>A JavaScript function that replaces each character of a string, with an argument to
+		the function, by the next one in the English alphabet, returning the resulting manipulated string.</p>
+
+	<p id="string">My daughter's first pet was a turtle name turbo. </p>
+
+	<script>
+		let text = document.getElementById("string").innerHTML; 
+		let result = text.replace(/turtle/gi, "T");
+		document.getElementById("string").innerHTML = result;
+	</script>
+
+</body>
+</html>
