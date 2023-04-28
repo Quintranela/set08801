@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Montserrat;
+  src:url(../font/Montserrat.ttf);
+}
+
+
+
+body{
+
+   width: 100%;
+   color: white;
+   font-size: 20px;
+   height: 100%;
+   font-family: Montserrat;
+   position: relative;
+   background-color:#D27D2D;
+   padding-bottom: 58px;
+}
+
+header{
+
+    display: flex;flex-direction: column;
+   
+}
+
+header div  > img{
+
+    width: 22%;
+}
+
+header > div{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+header div > a{
+
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+   
+}
+
+header div.established{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-left: 2em;
+   
+}
+
+
+.content{
+
+    margin: 0 auto;
+    width: 85%;
+    line-height: 40px;     
+    flex: 1;
+    
+}
+
+.products{
+
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-around;
+
+}
+
+.products a{
+    
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    background-color: grey
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+
+
+@media all and (max-width: 800px) {
+
+    .navigation {
+
+        justify-content:space-evenly;
+
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .navigation {
+
+        flex-flow: column wrap;
+
+        padding: 0;
+
+    }
+
+    .navigation a {
+
+        text-align: center;
+
+        padding: 10px;
+
+        border-top: 1px solid rgba(255,255,255,0.3);
+
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+
+    }
+
+    .navigation li:last-of-type a {
+
+        border-bottom: none;
+
+    }
+
+}
+
+
+
+
+
